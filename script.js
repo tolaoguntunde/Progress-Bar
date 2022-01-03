@@ -65,7 +65,10 @@ function update() {
     } else if (actives.length <= 1) {
         prevBtn.disabled = true;
         nextBtn.removeAttribute('disabled');
-    }
+    } else{ 
+        prevBtn.disabled = false;
+        nextBtn.disabled = false;
+        }
 
 
 }
